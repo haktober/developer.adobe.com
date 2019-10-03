@@ -40,7 +40,7 @@ strains:
     <<: *devDefaults
     url: https://adobedevsite.helix-demo.xyz/launch/docs
     # TODO: the following repo has no author or staging branch
-    content: https://github.com/Adobe-Marketing-Cloud/reactor-user-docs.git#master
+    content: https://github.com/adobe/reactor-user-docs.git#master
     directoryIndex: README.html
     package: developer-adobe-com/ce5db49d1525a068bee7fb68cfa87808abbba4f0
   - name: xd-docs-dev
@@ -75,7 +75,7 @@ strains:
   - name: launch-docs-production
     <<: *productionDefaults
     url: https://developer.adobe.com/launch/docs
-    content: https://github.com/Adobe-Marketing-Cloud/reactor-user-docs.git#master
+    content: https://github.com/adobe/reactor-user-docs.git#master
     directoryIndex: README.html
     package: developer-adobe-com/ce5db49d1525a068bee7fb68cfa87808abbba4f0
   - name: xd-docs-production
